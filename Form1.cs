@@ -26,7 +26,7 @@ namespace CsharpApi
             try
             {
                 txtOutput.Clear();
-                HttpResponseMessage response = await client.GetAsync("http://localhost/myapi/api.php");
+                HttpResponseMessage response = await client.GetAsync("http://localhost/myapi/phpapi/api.php");
                 response.EnsureSuccessStatusCode();
                 string responseBody = await response.Content.ReadAsStringAsync();
                 txtOutput.Text = responseBody;
@@ -45,7 +45,7 @@ namespace CsharpApi
 
             try
             {
-                HttpResponseMessage response = await client.PostAsync("http://localhost/myapi/api.php", content);
+                HttpResponseMessage response = await client.PostAsync("http://localhost/myapi/phpapi/api.php", content);
                 response.EnsureSuccessStatusCode();
                 string responseBody = await response.Content.ReadAsStringAsync();
                 txtOutput.Text = responseBody;
