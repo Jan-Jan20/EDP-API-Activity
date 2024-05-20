@@ -69,7 +69,7 @@
             this.btnGet.TabIndex = 3;
             this.btnGet.Text = "GET";
             this.btnGet.UseVisualStyleBackColor = true;
-            this.btnGet.Click += new System.EventHandler(this.btnGet_Click_1);
+            this.btnGet.Click += new System.EventHandler(this.btnGet_Click);
             // 
             // groupBox2
             // 
