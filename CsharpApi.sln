@@ -5,6 +5,11 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpApi", "CsharpApi.csproj", "{7DAF6016-E51B-46E4-83BF-914D45BC0D76}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6F6C833C-054D-4529-8F05-2D7E4289C20C}"
+	ProjectSection(SolutionItems) = preProject
+		youtubeLink.txt = youtubeLink.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
